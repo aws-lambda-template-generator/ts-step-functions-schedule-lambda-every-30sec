@@ -1,4 +1,5 @@
-REGION: ap-southeast-2
-ACCOUNT_ID: 045770812520 # AWS Connect Account
-DEPLOYMENT_BUCKET: connect-lambda-code-bucket-${self:custom.env}
+REGION: <target aws region such as ap-southeast-2>
+ACCOUNT_ID: <Account Id>
+DEPLOYMENT_BUCKET: <deployment bucket name>
+
 
