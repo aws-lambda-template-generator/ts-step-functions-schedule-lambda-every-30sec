@@ -1,8 +1,5 @@
 - Effect: Allow
   Action:
-    - connect:*
-  Resource: arn:aws:connect:ap-southeast-2:045770812520:instance/*
-- Effect: Allow
-  Action:
-    - kinesis:*
-  Resource: arn:aws:kinesis:ap-southeast-2:045770812520:stream/connect-metrics-stream-${self:custom.env}
+    - ssm:Describe*
+    - ssm:Get*
+  Resource: arn:aws:ssm:ap-southeast-2:${self:custom.account}:parameter/*
