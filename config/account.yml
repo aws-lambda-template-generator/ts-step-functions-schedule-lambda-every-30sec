@@ -1,0 +1,4 @@
+REGION: ap-southeast-2
+ACCOUNT_ID: 045770812520 # AWS Connect Account
+DEPLOYMENT_BUCKET: connect-lambda-code-bucket-${self:custom.env}
+

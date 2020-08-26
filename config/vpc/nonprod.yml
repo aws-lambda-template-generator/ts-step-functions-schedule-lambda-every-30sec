@@ -1,0 +1,8 @@
+securityGroupIds:
+  - sg-04e97a598f76b54e4 # public-ingress-router-elb_sg
+
+# can add multiple subnet Ids
+subnetIds:
+  - subnet-02caa0d1d5898a1c7 # non-production-public-subnet-1
+  - subnet-083d33f627f249c91 # non-production-public-subnet-0
+  - subnet-0960121e4a94bd04b # non-production-public-subnet-2
