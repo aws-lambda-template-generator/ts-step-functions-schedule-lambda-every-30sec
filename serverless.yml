@@ -16,7 +16,7 @@ custom:
   account: ${opt:account, self:provider.account}
   # customDomain: ${file(config/domains.yml)} # this is for custom dns for API endpoint
   # certs: ${file(config/certs.yml)} # if creating custom dns, need to specify certificate
-  functionName: ${self:custom.env}-lambda-run-every-30-sec # This is the function name appears in the AWS lambda console.
+  functionName: ${self:custom.env}-${self:service} # This is the function name appears in the AWS lambda console.
 
 provider:
   name: aws
