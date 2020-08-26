@@ -1,7 +1,7 @@
 {
   "name": "ts-step-functions-schedule-lambda-every-30sec",
   "version": "1.0.0",
-  "description": "AWS Lambda Function to ingest contact centre metrics from Amazon Connect",
+  "description": "Step function to run lambda every 30 seconds template",
   "scripts": {
     "build": "tsc",
     "watch:build": "tsc --watch",
